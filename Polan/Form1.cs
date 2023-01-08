@@ -10,7 +10,7 @@ using System.Net;
 using System.Xml.Linq;
 using System.Drawing.Text;
 
-namespace Polan
+namespace Polan 
 {
 
     public partial class Polan : MaterialForm
@@ -190,6 +190,9 @@ namespace Polan
 
                 switch (r)
                 {
+                case "how are you":
+                say("im fine")
+                break;
                     case "give me a random quote":
                         say("wait"+w.DownloadString("https://api.quotable.io/random?tags=technology,famous-quotes"));
                         break;
