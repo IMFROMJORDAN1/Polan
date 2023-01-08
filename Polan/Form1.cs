@@ -190,6 +190,9 @@ namespace Polan
 
                 switch (r)
                 {
+                     case "are you married":
+                        say("no im not im lonely </3");
+                        break;
                      case "how old are you":
                         say("im to old and to young");
                         break;
