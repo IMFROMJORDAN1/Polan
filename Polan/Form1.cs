@@ -191,7 +191,7 @@ namespace Polan
                 switch (r)
                 {
                      case "im sorry":
-                        say("it is fine");
+                        say("no need to be sorry");
                         break;
                      case "do you love me":
                         say("maybe");
